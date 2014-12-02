@@ -1,0 +1,103 @@
+/*
+Fixed Header will contain (in priority order):
+    "Bubble Loco" logo in crazy font
+    Random color selection "Get All the Red Ones!"
+    Timer
+    Level Select (1,2,3)
+
+Change CSS when a level button is clicked
+*/
+
+
+body {
+    background: url('../img/background.jpg');
+}
+
+.banner {
+    height:12%;
+    background:#005533;
+    /*border:1px solid #005533;*/
+    width:100%;
+    margin:0px;
+    /*padding-top: 10px;*/
+    position:fixed;
+    top: 0px;
+    left: 0;
+
+}
+
+.banner ul {
+    color: grey;
+    float: right;
+    list-style-type: none;
+    padding-right: 10px;
+    font-weight: bold;
+    position: fixed;
+    top: 1%;
+    right: 1%;
+}
+
+.banner h1 {
+    font-family: 'Swanky', cursive;
+    font-weight: bold;
+    font-size: 48px;
+    position: fixed;
+    top: 0px;
+    left: 15px;
+    margin: 0;
+    color: white;
+}
+
+div {
+    height:12em;
+    width:12em;
+    display: inline-block;
+}
+
+.container {
+    margin: 0 auto;
+    margin-top: 8%;
+    text-align: center;
+}
+
+.currentLevel {
+    display: block;
+    color: red;
+}
+
+.purple {
+    border-radius: 100%;
+    background: -webkit-radial-gradient(55% 45%, circle, #FF99FF,#6600DD);
+}
+
+.red {
+    border-radius: 100%;
+    background: -webkit-radial-gradient(55% 45%, circle, #FF7744, #990000);
+}
+
+.blue {
+    border-radius: 100%;
+    background: -webkit-radial-gradient(55% 45%, circle, #66AADD, #0000DD);
+}
+
+.yellow {
+    border-radius: 100%;
+    background: -webkit-radial-gradient(55% 45%, circle, #FFFFCC, #FF9900);
+}
+
+.green {
+    border-radius: 100%;
+    background: -webkit-radial-gradient(55% 45%, circle, #66FF00, #003300);
+}
+
+.orange {
+    border-radius: 100%;
+    background: -webkit-radial-gradient(55% 45%, circle, #FFCC33, #CC3300);
+}
+
+.black {
+    border-radius: 100%;
+    background: -webkit-radial-gradient(55% 45%, circle, darkgrey, black);
+}
+
+
