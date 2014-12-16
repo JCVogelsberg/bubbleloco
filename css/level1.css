@@ -52,6 +52,7 @@ Change CSS when a level button is clicked
 
 .otherLevel {
     color: white;
+    display: none;
 }
 
 #target_color {
